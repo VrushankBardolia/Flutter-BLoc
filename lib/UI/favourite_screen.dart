@@ -58,7 +58,7 @@ class _FavouriteScreenState extends State<FavouriteScreen> {
                         title: Text(item.value.toString(),
                           style: TextStyle(
                             color: state.tempFavouriteItemList.contains(state.favouriteItemList[index]) ? Colors.red : Colors.black,
-                            decoration: state.tempFavouriteItemList.contains(state.favouriteItemList[index]) ? TextDecoration.lineThrough : TextDecoration.
+                            decoration: state.tempFavouriteItemList.contains(state.favouriteItemList[index]) ? TextDecoration.lineThrough : TextDecoration.none
                           ),
                         ),
                         trailing: IconButton(
